@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .cls1
+        {
+            color:red;
+            background-color:yellow;
+            font-style:italic;
+            font-size: 30px;
+            font-weight:bold;
+            text-align: center;
+        }
+        .cls2
+        {
+            border:5px solid blue;
+        }
+    </style>
+</head>
+<body>
+    <h3>All the Best for your semester exam!!!<span id="id1" data-wish="do well"></span></h3>
+    <h3>Stay Safe due to Omicron Virus</h3>
+    <script>
+        var s=document.querySelectorAll("h3");
+        for(let i=0;i<s.length;i++)
+        {
+        s[i].classList.add("cls1");
+        s[i].classList.add("cls2");
+        console.log(s[i]);
+        }
+        var m=document.querySelector("span");
+        m.innerHTML=m.dataset.wish;
+    </script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+    <script src="myscript.js"></script>
+    <!-- <script>
+        $(document).ready(function()
+        {
+            // $("h3").css({"color":"yellow","background-color":"skyblue"});                                                                                                                                                                  
+            $("h3").addClass("cls1");
+        });                                                                                                         
+    </script> -->
+    
+</body>
+</html>

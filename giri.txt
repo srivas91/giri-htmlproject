@@ -1,0 +1,29 @@
+JS:
+1)variable
+2)data types
+3)operator
+4)function
+5)conditional statement and loops
+6)String
+7)Array
+8)Object
+
+
+innerHTML   html()
+innerText   text()
+
+show()
+hide()
+
+
+CSS:
+1)id
+2)class
+3)span
+4)div
+5)types-inline,internal,external
+6)pseudo class,pseudo element
+
+
+
+
